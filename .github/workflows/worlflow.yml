@@ -5,6 +5,9 @@ on:
     branches:
       - main # Or your main development branch
 
+permissions:
+  contents: write # Add this line to grant write permission
+
 jobs:
   bump_version:
     runs-on: ubuntu-latest
